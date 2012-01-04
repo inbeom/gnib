@@ -46,9 +46,7 @@ usability of the library. You can utilize `Gnib::Search`,
 `Gnib::SearchRequest`, `Gnib::SearchResponse` instances which provide
 more useful options than that of the helper function.
 
-    search = Gnib::Search.new 'query', :sources => [:web, :image] #
-Other options include :market, :version, :adult, :latitude, :longitude,
-...
+    search = Gnib::Search.new 'query', :sources => [:web, :image] # Other options include :market, :version, :adult, :latitude, :longitude, ...
     request = search.request
     response = request.response
 
