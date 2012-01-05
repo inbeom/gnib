@@ -11,11 +11,11 @@ Gem::Specification.new do |s|
   s.homepage    = ""
   s.summary     = %q{Ruby library for Microsoft Bing Search API}
   s.description = %q{Gnib provides interfaces for Bing Search API version 2.0}
-  
+
   s.add_dependency "activesupport"
   s.add_development_dependency "rspec"
 
-  # s.rubyforge_project = "gnib"
+  s.rubyforge_project = "gnib"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
