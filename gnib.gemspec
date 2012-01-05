@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Inbeom Hwang"]
   s.email       = ["inbeom@wafflestudio.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/inbeom/gnib"
   s.summary     = %q{Ruby library for Microsoft Bing Search API}
   s.description = %q{Gnib provides interfaces for Bing Search API version 2.0}
 
