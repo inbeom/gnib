@@ -13,6 +13,8 @@ Gem::Specification.new do |s|
   s.description = %q{Gnib provides interfaces for Bing Search API version 2.0}
 
   s.add_dependency "activesupport"
+  s.add_dependency "i18n"
+  s.add_development_dependency "rake"
   s.add_development_dependency "rspec"
 
   s.rubyforge_project = "gnib"
