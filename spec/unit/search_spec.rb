@@ -28,7 +28,7 @@ describe Gnib::Search do
 
     it "serializes it appropriately" do
       serialized_str = search.send :serialized_parameters
-      serialized_str.should include("Sources=#{CGI::escape('image+spell')}")
+      serialized_str.should include("Sources=#{CGI::escape('image spell')}")
     end
   end
 end
