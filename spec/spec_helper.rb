@@ -1,4 +1,5 @@
-require "rubygems"
-require File.join(File.expand_path(__FILE__), "../../lib/gnib")
-require "rspec"
+$LOAD_PATH.unshift(File.dirname(__FILE__))
+$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), "..", "lib"))
 
+require "gnib"
+require "rspec"
