@@ -70,7 +70,7 @@ module Gnib
       # Expand parameters organized in hash form which is used for
       # source-specific purpose to serialized GET parameter string.
       def expanded_hash_parameters(source, params_hash, options = {})
-        base_str = "#{source.to_s.camelize}Request"
+        base_str = "#{source.to_s.camelize}"
 
         params_hash.map do |k, v|
           "#{base_str}.#{k.to_s.camelize}=#{serialized_parameter(v)}"
